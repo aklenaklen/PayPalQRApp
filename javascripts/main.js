@@ -4,7 +4,8 @@ $(document).ready(function(){
 			//$('#loading').show();
 			$('#reader').hide();
 		  $.get("http://jo-pp-ruby-demo.herokuapp.com/qr/pay?amt=1100&ba=" + code, function(data){
-        //alert("Payment Result: " + data);
+				//alert("http://jo-pp-ruby-demo.herokuapp.com/qr/pay?amt=1100&ba=" + code);
+        alert("Payment Result: " + data);
 				alert("Thank you for shopping!");
       });
 			//$('#read').html(data);
